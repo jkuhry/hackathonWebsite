@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="yodaApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>We will hack you</title>
+    <link rel="stylesheet" href="urban.html">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/app/styles/styles.css">
+    <!-- endinject -->
+</head>
+
+<body ng-controller="MainController as vm" id="b1">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="img/Unknown-1.jpeg" width="42" height="42">
+                <!-- <a class="navbar-brand" href="#"></a> -->
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="#">Yoda Speak</a></li>
+                    <li><a href="urban.html">Urban Dictionary</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-2 sidenav" id="slide1">
+                <div>
+                    <img src="img/images.jpg">
+                    <p><a href="http://www.starwars.com/databank/yoda">Yoda facts click here</a></p>
+                </div>
+            </div>
+            <div class="col-sm-8 text-left" id="placeIm">
+                <img src="img/Unknown.jpeg" id="img1">
+                <audio loop="true" autoplay="true" controls="" id="sound">
+    <source src="img/Yoda Laughing.mp3" type="audio/mpeg">
+</audio>
+
+                <h1 id="yodaTitle">Ask me and speak you will!</h1>
+                <hr>
+                <input type="text" class="form-control" ng-model="vm.wordSearch" placeholder="Say something..">
+                <button type="button" ng-click="vm.getYoda(vm.wordSearch)" class="btn btn-primary active" id="myB">Click and recieve you will</button>
+                <p id="answer">{{vm.trans}}</p>
+                <img src="img/master-yoda-fighting.jpg" id="bPic">
+            </div>
+            <div class="col-sm-2 sidenav" id="slide2">
+                <img src="img/images.png">
+               
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+        <p>&copy; Copyright 2016 Ali & Jack masterpiece</p>
+    </footer>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <!-- inject:js -->
+    <script src="/app/app.js"></script>
+    <script src="/app/main.controller.js"></script>
+    <script src="/app/main.factory.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>
+<!-- JK -->

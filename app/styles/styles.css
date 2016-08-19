@@ -1,0 +1,131 @@
+#img1 {
+    max-width: 100%;
+    margin: 0 25% 0 25%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+.row.content {
+    height: 450px
+}
+
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+
+/* Set black background color, white text and some padding */
+
+footer {
+    margin-top: 20%;
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+#myB {
+    margin-top: 3%;
+    font-family: fantasy;
+}
+
+#sound {
+    margin: 3% 0 0 33%;
+}
+
+#answer {
+    margin: 5% auto 0 auto;
+    font-family: fantasy;
+    font-size: 2.75em;
+    font-weight: 900;
+    text-align: center;
+    color: red;
+}
+
+#answer2 {
+    margin: 5% auto 0 auto;
+    font-family: fantasy;
+    font-size: 2.75em;
+    font-weight: 900;
+    text-align: center;
+    color: darkblue;
+}
+
+#yodaTitle {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+#urbTitle {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 3.75em;
+}
+
+#bPic {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 4%;
+}
+
+#b1 {
+    background-color: lightgreen;
+}
+
+#b2 {
+    background-color: #ac5353;
+}
+
+#slide1 {
+    background-color: black;
+}
+
+#slide2 {
+    background-color: black;
+}
+
+#urbP2 {
+    max-width: 100%;
+}
+
+#urbP3 {
+    max-width: 100%;
+    background-color: black;
+}
+
+#urbP4 {
+    max-width: 100%;
+    background-color: black;
+}
+
+
+/*background image in bootstrap
+padding around output and make bigger maybe fantasy font
+put something in the footer area like copy right to you and me
+put the yoda voice in html to keep playing. mobcup.net
+*/
